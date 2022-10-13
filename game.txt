@@ -82,14 +82,14 @@ Buildings
     desc:Time for Burning! The REAL kind. <//> Produces 10 money per second
     on tick:yield 10 money
 	tag:tier4
-    cost:75 money
+    cost:50 money
     req:upgrade3
 *factory10
     name:Medium Mine
     desc:You'll get it, and you'll like it. <//> Produces 15 money per second
     on tick:yield 15 money
 	tag:tier4
-    cost:100 money
+    cost:75 money
     req:upgrade3
 *factory11
     name:Polymer Clay Factory
@@ -97,14 +97,14 @@ Buildings
     on tick:yield 17 money
     on tick:if (chance(25%)) lose 17 money
     on tick:if (chance(50%)) lose 8 money
-    cost:90 money
+    cost:85 money
     req:3 factory7
     req:3 factory9
 *factory12
     name:Small Packaging Factory
     desc:So now we can make a shiny brand. Woo? <//> Produces 25 money
     on tick:yield 25 money
-    cost:175 money
+    cost:125 money
     req:5 factory8
     req:5 factory9
     req:5 factory10
@@ -112,7 +112,7 @@ Buildings
     name:Alloy Maker
     desc:Essential for Industrialization. <//> Produces 30 money
     on tick:yield 30 money
-    cost:225 money
+    cost:150 money
     req:3 factory12
     req:7 factory10
     req:10 factory9
@@ -120,7 +120,7 @@ Buildings
     name:Shipping Factory
     desc:Be the FedEx, DHL, or UPS of Your Company. <//> Produces 40 money
     on tick:yield 40 money
-    cost:265 money
+    cost:200 money
     req:5 factory12
     req:2 factory13
 *factory15
@@ -131,14 +131,14 @@ Buildings
     on tick:if (chance(15%)) lose 50 money
     on tick:if (chance(25%)) lose 25 money
     on tick:if (chance(50%)) lose 12 money
-    cost:300 money
+    cost:250 money
     req:6 factory13
     req:10 factory10
 *factory16
     name:Furniture Factory
     desc:The Ikea of a Bad Company. <//> Produces 55 money per second
     on tick:yield 55 money
-	cost:320 money
+	cost:275 money
 	req:25 factory3
     req:8 factory12
     req:5 factory14
@@ -146,7 +146,7 @@ Buildings
 	name:Medium Furnace
 	desc:BIG BURNS, sorry environment >:) <//> Produces 50 money per second
     on tick:yield 50 money
-	cost:300 money
+	cost:250 money
     req:15 factory9
 	req:10 factory10
     req:7 factory13
@@ -154,7 +154,7 @@ Buildings
 	name:Rubber Tree Factory
 	desc:it was today day when i found out rubber was made from trees. <//> Produces 40 money per second
 	on tick:yield 40 money
-	cost:325 money
+	cost:200 money
 	req:4 factory15
 	req:30 factory3
 	req:3 factory14
@@ -187,13 +187,13 @@ Buildings
     on tick:if (factory21 is 25) yield 90 money
     on tick:if (factory10 is 50) yield 60 money
     on tick:if (factory6 is 100) yield 30 money
-    cost:450 money
+    cost:900 money
     req:10 factory21
 *factory23
     name:Acrylic Factory
     desc:Woo it's painting time! <//> Produces 85 money
     on tick:yield 85 money
-    cost:425 money
+    cost:510 money
     req:3 factory22
     req:6 factory21
 *factory24
